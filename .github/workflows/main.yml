@@ -1,4 +1,4 @@
-  ```yml
+yml
     #  Name of workflow
     name: Lint workflow
     # Trigger workflow on all pull requests
@@ -27,4 +27,4 @@
                   run: npm install
                 - name: Run lint
                   run: npm run eslint
-    ```
+   
