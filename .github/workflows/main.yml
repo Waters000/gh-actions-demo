@@ -1,8 +1,6 @@
-yml
-    #  Name of workflow
-    name: Lint workflow
-    # Trigger workflow on all pull requests
-    on:
+name: Lint workflow
+
+on:
         pull_request:
             branches:
                 - dev
